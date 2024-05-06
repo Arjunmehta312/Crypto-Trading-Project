@@ -6,6 +6,12 @@ Cryptocurrency trading has gained immense popularity in recent years, attracting
 ## Objective
 The main objective of this project is to perform a comprehensive analysis of cryptocurrency price trends and develop a trading strategy based on simple moving average (SMA) crossover signals.
 
+## Installation
+To set up the project environment, install the required libraries using the following command:
+```bash
+pip install pandas matplotlib
+```
+
 ## Methodology
 1. **Data Acquisition**: We obtained cryptocurrency price data from the CSV file 'XMR_All_graph_coinmarketcap1.csv'. This dataset contains timestamped data including open, high, low, close prices, and trading volume.
 2. **Data Preprocessing**: We converted the 'timestamp' column to datetime format for easier manipulation. Calculated additional columns such as price change, price change percentage, and SMA for 50 and 200 days.
@@ -33,3 +39,10 @@ Explore additional technical indicators and machine learning models for advanced
 
 ## Footnote
 Overall, this project provides valuable insights into cryptocurrency trading and serves as a foundation for further research and exploration in this rapidly evolving field.
+
+### License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+### Acknowledgments
+Thanks to all the contributors who have helped with this project.
+Special thanks to the cryptocurrency community for providing valuable insights.
